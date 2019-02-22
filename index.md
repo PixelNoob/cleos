@@ -6,7 +6,7 @@ This website contains a list of cleos commands so that you can quickly reference
 
 For instructions on installing EOSio software go to: [github.com/EOSIO/eos](https://github.com/EOSIO/eos)
 
-### Transfer token
+#### Transfer token
 
     cleos transfer YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS" "MEMO"
 
@@ -19,7 +19,7 @@ cleos push action cryptopesosc transfer \
 
 In this example cryptopesosc is the name of the token contract and PSO is the symbol, change this values depending on the token you wish to send.
 
-### RAM
+#### RAM
 
     cleos system buyram YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS"
     cleos system sellram YOURACCOUNT 2500
