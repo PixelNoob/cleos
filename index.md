@@ -19,11 +19,18 @@ cleos push action cryptopesosc transfer \
 
 In this example cryptopesosc is the name of the token contract and PSO is the symbol, change this values depending on the token you wish to send.
 
-#### RAM
+#### Stake & Unstake
 
+```
+cleos system delegatebw YOURACCOUNT RECEIVERACCOUNT "15.0000 EOS" "15.0000 EOS"
+cleos system undelegatebw YOURACCOUNT RECEIVERACCOUNT "15.0000 EOS" "15.0000 EOS"
+```
+
+#### RAM
+```
     cleos system buyram YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS"
     cleos system sellram YOURACCOUNT 2500
-
+```
 Note that the buying amount is specified on EOS and the selling command is determined by the amount of bytes of ram you wish to sell.
 
 #### Create Account
