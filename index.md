@@ -6,33 +6,25 @@ This website contains a list of cleos commands so that you can quickly reference
 
 For instructions on installing EOSio software go to: [github.com/EOSIO/eos](https://github.com/EOSIO/eos)
 
-### Markdown
+### Transfer token
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    cleos transfer YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS" "MEMO"
 
-```markdown
-Syntax highlighted code block
+If you wish to transfer a different token you need to specify the contract when calling the action
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+cleos push action cryptopesosc transfer \
+        '[ "YOURACCOUNT", "RECEIVERACCOUNT", "100.0000 PSO", "MEMO" ]' -p YOURACCOUNT@active
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+In this example cryptopesosc is the name of the token contract and PSO is the symbol, change this values depending on the token you wish to send.
 
-### Jekyll Themes
+### RAM
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PixelNoob/cleos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    cleos system buyram YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS"
+    cleos system sellram YOURACCOUNT 2500
+
+Note that the buying amount is specified on EOS and the selling command is determined by the amount of bytes of ram you wish to sell.
 
 ### Support or Contact
 
