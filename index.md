@@ -1,6 +1,10 @@
-## Cleos Commands
+## EOSio Software
 
-This website contains a list of cleos commands so that you can quickly reference them for your convience. For instructions on installing EOSio software go to: https://github.com/EOSIO/eos
+Cleos is the terminal command to run EOSio actions. EOSio is the software that supports blockchains like EOS, BOS, Telos, Worbli, etc.
+
+This website contains a list of cleos commands so that you can quickly reference them for your convience. 
+
+For instructions on installing EOSio software go to: [github.com/EOSIO/eos](https://github.com/EOSIO/eos)
 
 ### Markdown
 
