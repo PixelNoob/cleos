@@ -1,2 +1,2 @@
 # cleos
-Cleos commands documentation for EOSio
+Cleos command documentation for EOSio
