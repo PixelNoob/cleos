@@ -28,8 +28,8 @@ cleos system undelegatebw YOURACCOUNT RECEIVERACCOUNT "15.0000 EOS" "15.0000 EOS
 
 #### RAM
 ```
-    cleos system buyram YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS"
-    cleos system sellram YOURACCOUNT 2500
+cleos system buyram YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS"
+cleos system sellram YOURACCOUNT 2500
 ```
 Note that the buying amount is specified on EOS and the selling command is determined by the amount of bytes of ram you wish to sell.
 
