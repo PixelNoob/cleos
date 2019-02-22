@@ -34,7 +34,7 @@ cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY 
 
 #### Vote Producer
 
-cleos system voteproducers approve YOURACCOUNT BP_ACCOUNT
+    cleos system voteproducers approve YOURACCOUNT BP_ACCOUNT
 
 ### Support or Contact
 
