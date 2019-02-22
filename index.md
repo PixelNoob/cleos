@@ -30,6 +30,7 @@ Note that the buying amount is specified on EOS and the selling command is deter
 
 ```
 cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY --stake-net "0.1000 EOS" --stake-cpu "0.1000 EOS" --buy-ram-kbytes 5 -p YOURACOCUNT
+```
 
 #### Vote Producer
 
