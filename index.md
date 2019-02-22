@@ -26,6 +26,15 @@ In this example cryptopesosc is the name of the token contract and PSO is the sy
 
 Note that the buying amount is specified on EOS and the selling command is determined by the amount of bytes of ram you wish to sell.
 
+#### Create Account
+
+```
+cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY --stake-net "0.1000 EOS" --stake-cpu "0.1000 EOS" --buy-ram-kbytes 5 -p YOURACOCUNT
+
+#### Vote Producer
+
+cleos system voteproducers approve YOURACCOUNT BP_ACCOUNT
+
 ### Support or Contact
 
 Feel free to update this command list by creating a Pull Request on [Github](https://github.com/PixelNoob/cleos/)
