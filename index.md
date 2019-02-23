@@ -29,7 +29,7 @@ cleos push action cryptopesosc transfer \
         '[ "YOURACCOUNT", "RECEIVERACCOUNT", "100.0000 PSO", "MEMO" ]' -p YOURACCOUNT@active
 ```
 
-In this example cryptopesosc is the name of the token contract and PSO is the symbol, change this values depending on the token you wish to send.
+In this example cryptopesosc is the name of the token contract and PSO is the symbol, change these values depending on the token you wish to send.
 
 #### Stake & Unstake
 
