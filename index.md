@@ -6,6 +6,18 @@ This website contains a list of cleos commands so that you can quickly reference
 
 For instructions on installing EOSio software go to: [github.com/EOSIO/eos](https://github.com/EOSIO/eos)
 
+#### Create Wallet
+
+To start using cleos you will need to create a wallet to manage your private keys.
+
+    cleos wallet create --to-console
+
+Note that you can specify a name for the wallet with the command "-n", otherwise the name will be set to "default".
+
+#### Import Private Key
+
+    cleos wallet import
+
 #### Transfer token
 
     cleos transfer YOURACCOUNT RECEIVERACCOUNT "1.0000 EOS" "MEMO"
