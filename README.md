@@ -1,4 +1,4 @@
 # cleos
 Cleos command documentation for EOSio
 
-Visit: [cleos.chitty.tech](https://cleos.chitty.tech)
+Visit: [pixelnoob.github/cleos](https://pixelnoob.github/cleos)
