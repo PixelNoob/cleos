@@ -67,4 +67,8 @@ cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY 
 
 Feel free to update this command list by creating a Pull Request on [Github](https://github.com/PixelNoob/cleos/)
 
-[Create Token Guide](pages/token.md)
+
+
+## More Guides
+
+* [Create Token](pages/token.md)
