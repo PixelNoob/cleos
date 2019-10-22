@@ -4,7 +4,7 @@
 
 ### Download the contract repository
 
-Download the contracts from: https://github.com/eosio/eosio.contracts 
+Download the contracts from: [github.com/eosio/eosio.contracts](https://github.com/eosio/eosio.contracts)
 
 ### Generate the wasm
 
