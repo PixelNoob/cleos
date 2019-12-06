@@ -57,7 +57,7 @@ cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY 
     
 #### Register Producer
 
-    cleos system regproducer YOURACCOUNT ACTIVE_PUB_KEY https://website -p YOURACCOUNT
+    cleos system regproducer YOURACCOUNT SIGNING_KEY https://website -p YOURACCOUNT
 
 #### Change Keys
 
