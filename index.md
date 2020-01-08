@@ -62,12 +62,16 @@ cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY 
 #### Change Keys
 
     cleos set account permission YOURACCOUNT active ACTIVE_PUB_KEY -p YOURACCOUNT
+    
+#### Set up claimrewards permission
+
+    cleos set account permission YOURACCOUNT claim CLAIM_PUBLIC_KEY active -p YOURACCOUNT@active
+    cleos set action permission YOURACCOUNT eosio claimrewards claim -p YOURACCOUNT@active
+    cleos system claimrewards YOURACCOUNT -p YOURACCOUNT@claim
 
 ### Support or Contact
 
 Feel free to update this command list by creating a Pull Request on [Github](https://github.com/PixelNoob/cleos/)
-
-
 
 ## More Guides
 
