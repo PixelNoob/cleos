@@ -51,6 +51,11 @@ Note that the buying amount is specified on EOS and the selling command is deter
 cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY --stake-net "0.1000 EOS" --stake-cpu "0.1000 EOS" --buy-ram-kbytes 5 -p YOURACOCUNT
 ```
 
+#### Get Table from a smart contract
+
+    cleos get table contract_account scope table
+    example_$: cleos get table delphioracle eosusd datapoints
+
 #### Vote Producer
 
     cleos system voteproducers approve YOURACCOUNT BP_ACCOUNT
