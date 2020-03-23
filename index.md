@@ -68,7 +68,7 @@ cleos system newaccount YOURACCOUNT ACCOUNT2CREATE OWNER_PUB_KEY ACTIVE_PUB_KEY 
 
     cleos set account permission YOURACCOUNT active ACTIVE_PUB_KEY -p YOURACCOUNT
     
-#### Set up claimrewards permission
+#### Set up a special permission (claimrewards example) 
 
     cleos set account permission YOURACCOUNT claim CLAIM_PUBLIC_KEY active -p YOURACCOUNT@active
     cleos set action permission YOURACCOUNT eosio claimrewards claim -p YOURACCOUNT@active
