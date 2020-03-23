@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
 name: Cleos
 tagline: Cleos command documentation for EOSio
+show_downloads: true
