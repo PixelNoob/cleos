@@ -42,4 +42,4 @@ Go to the eosio.token folder and generate the wasm ([you need to have eosio.cdt 
 
 ## More Guides
 
-* [Cleos commands](/cleos)
+* [Cleos commands](/)
